@@ -1,0 +1,35 @@
+/* linked to portfolio */
+body {
+    background-color: #000;
+    color: #fff;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+.set{
+    color:white;
+    text-decoration:none;
+}
+.set:hover{
+    color:#808080;
+}
+
+
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .job-title {
+    font-size: 1.1rem;
+    margin-top: 0px;
+  }
+  .profilePic {
+    border-radius: 50%;
+    size-adjust: 50%;
+  }
